@@ -23,7 +23,13 @@ namespace CRUDAPI.Controllers
             _service = service;
             _logger = logger;
         }
-        
+
+        [HttpGet("/")]
+        public IActionResult Index()
+        {
+            return Ok("This is my CRUD-Backend Operation.");
+        }
+
         [HttpGet("AllPosts")]
         public async Task<ApiResponse<ICollection<PostDTO>>> GetPost()
         {
