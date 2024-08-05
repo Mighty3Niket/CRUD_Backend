@@ -1,0 +1,92 @@
+# .vs folder (Visual Studio specific)
+.vs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Node modules (if you have any frontend code)
+node_modules/
+
+# Build directories
+bin/
+obj/
+debug/
+release/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NPM package lock
+package-lock.json
+
+# Entity Framework Migrations
+Migrations/
+
+# Publish Web Output
+publish/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Dependencies
+**/node_modules
+**/npm-debug.log
+**/yarn-error.log
+**/dist
+
+# Runtime data
+*.pid
+*.seed
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Web server configuration files
+*.pfx
+*.p12
+appsettings*.json
+
+# Publish directory
+publish/
+
+# .NET Core dependencies
+project.lock.json
+project.fragment.lock.json
+
+# ASP.NET Core Module
+hostingstart.html
+
+# Resharper
+_ReSharper*
+*.[Rr]e[Ss]harper
+resharper*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Files that might appear in the root of a volume
+*.cab
+*.cfg
+*.mdmp
+*.tmp
